@@ -93,4 +93,5 @@ callLD()
 '''
 Responsibly close the LD Client
 '''
+ldclient.get().flush()
 ldclient.get().close()
